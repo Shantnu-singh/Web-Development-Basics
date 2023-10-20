@@ -1,0 +1,35 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.box2{
+    color: red;
+}
+
+/*
+  after boder-box : height = content+border+padding(not margin)
+  before border-box : height = content 
+*/
+
+.box1{
+    margin: 5px;
+    border: 5px solid blue;
+    padding: 10px;
+    background-color: rebeccapurple;
+    height: 200px;
+    box-sizing: border-box;
+   
+}
+
+/*margin collpase : box boxes have 10px apart instead of 20px */
+.Box{
+    margin: 5px;
+    border: 5px solid rgb(0, 0, 0);
+    padding: 10px;
+    background-color: rebeccapurple;
+    height: 200px;
+    box-sizing: border-box;
+  }
