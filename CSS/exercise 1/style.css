@@ -1,0 +1,14 @@
+.red{
+    background-color: yellow;
+    color: red;
+}
+
+p{
+    background-color: blue;
+    color: white;
+}
+h1{
+    text-transform: capitalize;
+    text-align: center;
+    text-decoration: underline green;
+}
