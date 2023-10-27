@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Box</title>
+    <style>
+        .container {
+            border: 2px solid red;
+            /* by default */
+            display: flex;
+            /* centre in main axis 
+            main start--------->main end
+            */
+            justify-content: center;
+            /* centre in cross axis
+            cross axis
+            |
+            |
+            |
+            cross end
+            */
+            align-items: center;
+            height: 80vh;
+            /* change main and cross axis */
+            /* flex-direction: column; */
+             /* by defualt */
+            flex-direction: row;
+
+            /* to control overflow */
+            flex-wrap: wrap;
+            /* when three are mulitiple rows */
+            align-content: center;
+
+            /* gap: 30px;
+            row-gap: 40px;
+            column-gap: 10px; */
+
+            gap: 40px 10px;
+
+
+           /* flex-direction: column-reverse; */
+        }
+
+        .itm {
+            height: 32px;
+            width: 32px;
+            background-color: blueviolet;
+            border: 2px solid black;
+            /* margin: 4px; */
+            color: white;
+
+            order: ;
+
+            flex-grow: 2;
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="itm">1</div>
+            <div class="itm">2</div>
+            <div class="itm">3</div>
+            <div class="itm">4</div>
+            <div class="itm">5</div>
+            <div class="itm">5</div>
+           
+    </header>
+</body>
+
+</html>
