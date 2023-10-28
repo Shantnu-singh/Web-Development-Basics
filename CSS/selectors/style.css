@@ -1,0 +1,56 @@
+
+/*Element Selctors */
+div{
+    background-color: red;
+}
+
+/*Group Selctors */
+.red{
+    background-color: aqua;
+}
+
+/*id Selctors */
+#green{
+    color: white;
+    background-color: black;
+}
+
+/*Child Selctors */
+
+div > p{
+    background-color: yellowgreen;
+    color: red;
+}
+
+/*decendet Selctors */
+
+div h3{
+    color: blue;
+    background-color: violet;
+}
+
+
+/*universal Selctors */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*psedu Selectors */
+
+a:visited{
+    color: yellow;
+}
+
+a:link{
+    color: beige;
+}
+
+a:active{
+    background-color: blue;
+}
+
+a:hover{
+    background-color: black;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors 2</title>
+    <style>
+        /* .box:first-child {
+            background-color: red;
+        }
+
+        .box::first-line {
+            color: yellow;
+        }
+
+        .boxes *{
+            border: 2px solid black;
+        } */
+
+        .box:nth-child(2){
+            color: blue;
+            background-color: red;
+            
+        }
+
+        .boxes::after{
+            content: "i am writing this after the box";
+        }
+
+        ::selection{
+            background-color: black;
+            color: aqua;
+        }
+
+        input::placeholder{
+            color: green;
+            background-color: aqua;
+            padding: 0px;
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="boxes">
+        <div class="box">I am first box</div>
+        <div class="box">Hey i am a Box</div>
+        <div class="box">Hey i am a Box</div>
+        <div class="box">Hey i am a Box</div>
+        <input type="text pla" placeholder="type here">
+
+    </div>
+
+</body>
+
+</html>
