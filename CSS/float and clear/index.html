@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Float and Clear</title>
+    <style>
+        
+        img{
+            float: left;
+            /* float: right; */
+        }
+
+        .class{
+            border: 2px solid black;
+            /* to image to not overflow from the external box   */
+            /* display: flow-root; */
+            overflow: auto;
+        }
+
+        .card{
+            border: 2px solid red;
+        }
+        .card:nth-child(3){
+            background-color: aqua;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <div class="class">
+        <img src="test_img.png" alt="photo" width="280">
+        <div class="card">card1
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas sunt libero inventore cumque expedita unde excepturi velit delectus incidunt, aperiam non quod modi corrupti ipsa ullam alias illum accusantium amet sequi asperiores saepe aliquam?</p>
+        </div>
+        
+        <div class="card">card2
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores sed voluptate animi blanditiis nihil! Doloribus sit tempora incidunt velit minus alias, maiores quo! Illum ad dolorem neque doloremque adipisci animi nobis omnis, praesentium beatae numquam, dignissimos aut provident sapiente perferendis repudiandae vitae? Possimus totam ullam ipsum vitae, nulla iste delectus dicta quasi consequuntur illum minima cum quam quia dolores dolorum temporibus, doloribus fuga animi deserunt iure doloremque laboriosam placeat veritatis nisi! Fuga fugit consequatur, pariatur nostrum dolores sequi dolorem impedit a nemo, et, quam sunt repellat sapiente error iusto perferendis natus saepe corporis. Expedita culpa unde, commodi vitae excepturi vero officiis. Excepturi optio voluptatem hic aliquid soluta cumque ipsum cupiditate totam! Exercitationem quod repellendus, quam et quasi suscipit. Aspernatur ratione facere quasi at in eligendi ex placeat provident, assumenda deleniti sint esse nulla, exercitationem est maiores vitae, quam accusamus iste recusandae voluptatum eaque odio! Quod aut ut suscipit maiores sit, maxime voluptatibus sed dolorem nemo voluptas placeat voluptates pariatur repudiandae autem corporis itaque id nam. Doloribus numquam ipsum similique error sit dignissimos aut ipsam vel perferendis reiciendis quibusdam repudiandae consequatur hic nobis, ullam rerum distinctio corporis quia sunt debitis iure unde, odit voluptates dicta. Assumenda, ratione! Eveniet dolores recusandae facilis, provident labore sit ducimus voluptatum dignissimos! Natus illum saepe adipisci, quo, ab ullam neque recusandae magni nulla, et minima sunt soluta quos atque odio optio molestias cum dolor totam. Labore est tempora minus repellat, animi placeat sunt consequatur modi reprehenderit sapiente? Delectus deleniti repudiandae odio eos. Atque, expedita doloremque suscipit odio illo et officia repellat accusamus? Quae voluptatem ipsum nobis dicta deserunt repellendus esse maiores modi cum quis id hic blanditiis consequatur eligendi veniam, dolorum tempora? Ab itaque exercitationem quos rem, expedita molestias dicta error sunt praesentium aperiam consectetur maxime perspiciatis obcaecati voluptatibus alias illo? Eligendi aspernatur eos expedita ut velit animi cupiditate sint quisquam eaque adipisci veniam maiores voluptas, magni aliquam voluptates dignissimos dolor iste eum inventore! Aliquam architecto voluptates vitae eius quas ex iste possimus ut voluptatem veritatis aut, excepturi impedit corrupti praesentium modi illo debitis dolor ipsa dolores quia provident. Corrupti, dolor! Veritatis sint adipisci maiores laborum, laboriosam sit iusto quasi?
+        </div>
+        <div class="card">card3</div>
+    </div>
+</body>
+</html>
