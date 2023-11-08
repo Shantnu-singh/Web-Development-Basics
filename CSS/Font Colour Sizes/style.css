@@ -1,0 +1,25 @@
+p{
+    font-family: 'Playpen Sans',Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    line-height: 1.23;
+    text-align-last: center
+    
+}
+
+  @import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@200;300;600&family=Roboto:wght@300&display=swap');
+
+h1{
+    font-family: 'Playpen Sans', cursive;
+    font-family: 'Roboto', sans-serif;
+    text-transform: lowercase;
+    text-decoration: underline blue;
+
+    
+    
+}
+
+h2{
+    text-transform: lowercase;
+    text-decoration: dashed;
+    text-decoration: rgb(8, 8, 8);
+}
